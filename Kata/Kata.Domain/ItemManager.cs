@@ -18,6 +18,8 @@ namespace Kata.Domain
             item.SellIn--;
         }
 
+        protected abstract void UpdateQuality(Item item);
+
         protected virtual void ValidateQuality(Item item)
         {
             if (item.Quality > Constants.MAXQUALITY)
@@ -30,8 +32,7 @@ namespace Kata.Domain
             }
         }
 
-        protected abstract void UpdateQuality(Item item);
-
+       
        
 
 
