@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.Domain", "Kata.Domain\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{A6DBD00B-F6F7-4A78-9725-FD888B7E607E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.Testing.UnitTests", "Kata.Testing.UnitTests\Kata.Testing.UnitTests.csproj", "{88BC9353-73C4-4A4F-B7E3-AD79F2DB8106}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,9 +37,16 @@ Global
 		{65F59E72-457D-415F-A07E-B9652DF71E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65F59E72-457D-415F-A07E-B9652DF71E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65F59E72-457D-415F-A07E-B9652DF71E9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88BC9353-73C4-4A4F-B7E3-AD79F2DB8106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88BC9353-73C4-4A4F-B7E3-AD79F2DB8106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88BC9353-73C4-4A4F-B7E3-AD79F2DB8106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88BC9353-73C4-4A4F-B7E3-AD79F2DB8106}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88BC9353-73C4-4A4F-B7E3-AD79F2DB8106} = {A6DBD00B-F6F7-4A78-9725-FD888B7E607E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D935399E-7CF9-407B-92B2-DE6C2E7ED503}
