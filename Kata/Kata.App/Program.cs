@@ -14,7 +14,7 @@ namespace Kata.App
 
             var items = gildedRoseService.GetItems();
 
-            int days = 3;
+            int days = 2;
             if (args.Length > 0)
             {
                 days = int.Parse(args[0]) + 1;
