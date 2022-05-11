@@ -5,7 +5,7 @@ My refactoring solution to GildedRose-Refactoring-Kata in order to improve the e
 
 ## Stack used : 
 
-+ C#, .NET Code 5
++ C#, .NET Core 5
 + Unit tests : nUnit.
 + IDE : Visual studio 2022
 
